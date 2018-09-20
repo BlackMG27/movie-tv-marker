@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
+
+.well{
+    padding: 20px;
+    background-color: #ECE9E9;
+    margin-bottom: 15px;
+    padding-bottom: 70px;
+}
+
+.well a{
+    display: inline-block;
+    float: right;
+}
+
+.well .btn.btn-default{
+    border: 1px solid #8B8A8A;
+    margin-left: 10px;
+    transition: .4s;
+}
+
+.well .btn.btn-default:hover{
+    background-color: #0B722A;
+    transition: .4s;
+    color: #FDFAFA;
+}
+
+.form-group input, textarea{
+    width: 100%;
+    padding: 5px;
+}
+
+.form-group label{
+    font-size: 1.5rem;
+    float: left;
+}
+
+.display-4{
+    padding-bottom: 20px;
+}
+
+h2{
+    font-size:2.25rem;
+}
+
+blockquote{
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 2.85rem;
+}
+
+blockquote::before,
+blockquote::after{
+    font-family: 'Lora',serif;
+    content: '"';
+    font-size: 3.6rem;
+}
+
+h6{
+    display: none;
+}
+
